@@ -3,12 +3,11 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 
 const StyledLink = styled.a`
-    font-size: 14px;
     color: #{ props => props.active ? 'pink' : '#fff' };
+    font-size: 14px;
+    font-weight: 300;
     line-height: 24px;
-    text-align: right;
-    position: absolute;
-    padding-right: 34px;
+    padding-right: 53px;
     border-right: 1px dotted #fff;
 
     &:hover {
@@ -16,7 +15,7 @@ const StyledLink = styled.a`
         text-decoration: none;
     }
 
-    &last-child: {
+    &:last-child {
         border-right: none;
     }
 `

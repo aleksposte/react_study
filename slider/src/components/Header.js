@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 
 // bootstrap
-import Row from 'react-bootstrap/lib/Button';
-import Col from 'react-bootstrap/lib/Button';
+import Row from 'react-bootstrap/lib/Row';
+import Col from 'react-bootstrap/lib/Col';
 // styled-components
 import styled from 'styled-components'
 import Link from './Link'
@@ -27,6 +27,8 @@ class Header extends React.Component {
                             <Link link='#' text='Прайс на ремонт' />
                             <Link link='#' text='Наши преимущества' />
                             <Link link='#' text='Схема работы' />
+                            <Link link='#' text='Контакты' />
+                            <Link link='#' text='Еще что-то' />
                         </List>
                     </nav>
                 </Col>
