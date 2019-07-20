@@ -17,7 +17,7 @@ const List = styled.ul`
 `
 
 class Header extends React.Component {
-    render () {
+    render() {
         return (
             <Row>
                 <Col lg={ 12 }>

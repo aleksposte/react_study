@@ -5,6 +5,8 @@ import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 // styled-components
 import styled from 'styled-components'
+import Slider from './Slider';
+
 
 const Repair = styled.div`
     color: #fff;
@@ -39,7 +41,7 @@ const CallBtn = styled.button`
 
 
 class Main extends React.Component {
-    render () {
+    render() {
         return (
             <Row>
                 <Col lg={ 5 }>
@@ -58,6 +60,7 @@ class Main extends React.Component {
                     </CallBtn>    
                 </Col>
                 <Col lg={ 6 } lgOffset={ 1 }>
+                    <Slider />
                 </Col>
             </Row>
         )

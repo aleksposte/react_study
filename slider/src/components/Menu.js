@@ -53,7 +53,7 @@ const CallButton = styled.button`
 `
 
 class Adress extends React.Component {
-    render () {
+    render() {
         return (
             <span> { this.props.addr } </span>
         )
@@ -61,7 +61,7 @@ class Adress extends React.Component {
 }
 
 class TelNumber extends React.Component {
-    render () {
+    render() {
         return (
             <span> { this.props.tel } </span>
         )
@@ -69,7 +69,7 @@ class TelNumber extends React.Component {
 }
 
 class Menu extends React.Component {
-    render () {
+    render() {
         return (
             <Row>
                 <Col lg={ 3 }>

@@ -21,7 +21,7 @@ const StyledLink = styled.a`
 `
 
 class Link extends React.Component {
-    render () {
+    render() {
         return (
             <StyledLink href={ this.props.link }> { this.props.text } </StyledLink>
         )
